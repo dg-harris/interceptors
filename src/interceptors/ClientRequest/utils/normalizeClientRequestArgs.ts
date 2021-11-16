@@ -111,7 +111,7 @@ export function normalizeClientRequestArgs(
   }
   // Handle a legacy URL instance and re-normalize from either a RequestOptions object
   // or a WHATWG URL.
-  else if ('hash' in args[0] && !('method' in args[0]) && !('headers' in args[0])) {
+  else if ('hash' in args[0] && !('method' in args[0])) {
     const [legacyUrl] = args
     log('first argument is a legacy URL:', legacyUrl)
 
