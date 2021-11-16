@@ -1,5 +1,5 @@
 import { parse } from 'url'
-import { Agent as HttpsAgent, RequestOptions } from 'https'
+import { Agent as HttpsAgent } from 'https'
 import { getUrlByRequestOptions } from '../../../utils/getUrlByRequestOptions'
 import { normalizeClientRequestArgs } from './normalizeClientRequestArgs'
 
